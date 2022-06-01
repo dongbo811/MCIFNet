@@ -36,11 +36,11 @@ a single V100 GPU of 32 GB Memory.
 
     + Assigning your costumed path, like `--train_save` and `--train_path` in `MyTrain_Val.py`.
     
-    + Just enjoy it via run `python MyTrain_Val.py` in your terminal.
+    + Just enjoy it via run `python train.py` in your terminal.
 
 2. Testing Configuration:
 
-    + After you download all the pre-trained model and testing dataset, just run `MyTesting.py` to generate the final prediction map: 
+    + After you download all the pre-trained model and testing dataset, just run `test.py` to generate the final prediction map: 
     replace your trained model directory (`--pth_path`).
     
     + Just enjoy it!
